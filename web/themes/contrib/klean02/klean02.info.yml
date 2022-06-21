@@ -20,11 +20,11 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
+  breadcrumb: Breadcrumb
   slideshow: 'Slideshow'
   contactinfo: 'Contact Info'
   featured_top: 'Featured top'
   our_services: 'Our Services'
-  breadcrumb: Breadcrumb
   content: Content
   why_us: 'Why Choose Us'
   portfolio: 'Portfolio'
