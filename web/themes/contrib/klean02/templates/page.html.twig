@@ -208,11 +208,13 @@
       </div>
       {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
         <div class="featured-bottom">
-          <aside class="{{ container }} clearfix" role="complementary">
-            {{ page.featured_bottom_first }}
+          <div class="container-fluid py-5">
+            <div class="container py-5">
+              {{ page.featured_bottom_first }}
+            </div>
+          </div>
             {{ page.featured_bottom_second }}
             {{ page.featured_bottom_third }}
-          </aside>
         </div>
       {% endif %}
       <footer class="site-footer">
