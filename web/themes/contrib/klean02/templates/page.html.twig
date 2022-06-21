@@ -148,15 +148,29 @@
           </aside>
         </div>
       {% endif %}
+
       {% if page.featured_top %}
         {% block featured %}
-          <div class="featured-top">
-            <aside class="featured-top__inner section {{ container }} clearfix" role="complementary">
-              {{ page.featured_top }}
-            </aside>
+          <div class="container-fluid py-5 mb-5p">
+            <div class="container">
+              <div class="row">
+                {{ page.featured_top }}
+              </div>
+            </div>
           </div>
         {% endblock %}
       {% endif %}
+
+      {% if page.our_services %}
+      <div class="container-fluid bg-service py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+              {{ page.our_services }}
+            </div>
+        </div>
+      </div>
+      {% endif %}
+
       <div id="main-wrapper" class="layout-main-wrapper clearfix">
         {% block content %}
           <div id="main" class="{{ container }}">
@@ -168,20 +182,26 @@
                     {{ page.content }}
                   </section>
                 </main>
-              {% if page.sidebar_first %}
-                <div{{ sidebar_first_attributes }}>
-                  <aside class="section" role="complementary">
-                    {{ page.sidebar_first }}
-                  </aside>
+              {% if page.why_us %}
+              <div class="container-fluid py-5">
+                <div class="container py-5">
+                    <div class="row">
+                    {{ page.why_us }}
+                    </div>
                 </div>
+              </div>
               {% endif %}
-              {% if page.sidebar_second %}
-                <div{{ sidebar_second_attributes }}>
-                  <aside class="section" role="complementary">
-                    {{ page.sidebar_second }}
-                  </aside>
+
+              {% if page.portfolio %}
+              <div class="container-fluid bg-portfolio py-5">
+                <div class="container py-5">
+                  <div class="row m-0 portfolio-container" style="position: relative; height: 517.966px;">
+                    {{ page.portfolio }}
+                  </div>
                 </div>
+              </div>
               {% endif %}
+
             </div>
           </div>
         {% endblock %}
@@ -197,21 +217,33 @@
       {% endif %}
       <footer class="site-footer">
         {% block footer %}
-          <div class="{{ container }}">
+        <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+          <div class="row pt-5">
             {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-              <div class="site-footer__top clearfix">
-                {{ page.footer_first }}
-                {{ page.footer_second }}
-                {{ page.footer_third }}
-                {{ page.footer_fourth }}
-              </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              {{ page.footer_first }}
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              {{ page.footer_second }}
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              {{ page.footer_third }}
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+              {{ page.footer_fourth }}
+            </div>
+               
             {% endif %}
             {% if page.footer_fifth %}
-              <div class="site-footer__bottom">
+            <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: #3E3E4E !important;">
+              <div class="row">
                 {{ page.footer_fifth }}
               </div>
+            </div>
             {% endif %}
           </div>
+          
+        </div>
         {% endblock %}
       </footer>
     </div>

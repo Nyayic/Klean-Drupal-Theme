@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '74e883adfa7921fd12b6134fd11b1ef2c1d8bdab',
+        'reference' => '90a11c35bd2c1cafc9063f6427f73277557adf36',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -213,6 +213,15 @@
             'replaced' => array(
                 0 => '8.9.3',
             ),
+        ),
+        'drupal/colorbox' => array(
+            'pretty_version' => '1.10.0',
+            'version' => '1.10.0.0',
+            'reference' => '8.x-1.10',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/colorbox',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/comment' => array(
             'dev_requirement' => false,
@@ -709,6 +718,15 @@
                 0 => '8.9.3',
             ),
         ),
+        'drupal/owlcarousel' => array(
+            'pretty_version' => '2.0.0-beta2',
+            'version' => '2.0.0.0-beta2',
+            'reference' => '8.x-2.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/owlcarousel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -760,7 +778,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '74e883adfa7921fd12b6134fd11b1ef2c1d8bdab',
+            'reference' => '90a11c35bd2c1cafc9063f6427f73277557adf36',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

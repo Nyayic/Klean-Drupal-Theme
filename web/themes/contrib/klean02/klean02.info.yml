@@ -23,10 +23,11 @@ regions:
   slideshow: 'Slideshow'
   contactinfo: 'Contact Info'
   featured_top: 'Featured top'
+  our_services: 'Our Services'
   breadcrumb: Breadcrumb
   content: Content
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
+  why_us: 'Why Choose Us'
+  portfolio: 'Portfolio'
   featured_bottom_first: 'Featured bottom first'
   featured_bottom_second: 'Featured bottom second'
   featured_bottom_third: 'Featured bottom third'
