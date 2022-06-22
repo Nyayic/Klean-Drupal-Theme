@@ -39,7 +39,7 @@
     dom_id ? 'js-view-dom-id-' ~ dom_id,
   ]
 %}
-
+<div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if title %}
     {{ title }}
@@ -62,10 +62,9 @@
   {% endif %}
 
   {% if rows %}
-    <div class="owl-carousel service-carousel position-relative">
-       {{ rows }}
+    <div class="view-content">
+      {{ rows }}
     </div>
-   
   {% elseif empty %}
     <div class="view-empty">
       {{ empty }}
@@ -93,3 +92,4 @@
       {{ feed_icons }}
     </div>
   {% endif %}
+</div>

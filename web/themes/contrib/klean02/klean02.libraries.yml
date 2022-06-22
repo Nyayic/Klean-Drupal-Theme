@@ -3,9 +3,11 @@ global-styling:
   js:
     js/global.js: {}
     js/main.js: {}
+    owlcarousel/owl.carousel.min.js: {}
   css:
     component:
       css/style.css: {}
+      owlcarousel/owl.carousel.min.css: {}
       # css/colors.css: {}
 bootstrap:
   js:
