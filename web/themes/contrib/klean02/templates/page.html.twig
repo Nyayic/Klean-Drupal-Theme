@@ -135,7 +135,7 @@
           <div class="row align-items-center py-4">
             <div class="col-md-6 text-center text-md-left">
               <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase"> 
-                {{ fields.title.content }}
+                {{ label }}
               </h1>
             </div>
             <div class="col-md-6 text-center text-md-right">
@@ -233,8 +233,18 @@
               {{ page.featured_bottom_first }}
             </div>
           </div>
+          <div class="container-fluid bg-testimonial py-5">
+            <div class="container py-5">
             {{ page.featured_bottom_second }}
-            {{ page.featured_bottom_third }}
+            </div>
+          </div>
+          <div class="container-fluid pt-5">
+            <div class="container pt-5">
+              <div class="row align-items-end mb-4">
+                {{ page.featured_bottom_third }}
+              </div>
+            </div>
+          </div>
         </div>
       {% endif %}
       <footer class="site-footer">

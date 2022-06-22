@@ -36,11 +36,11 @@
     'block-' ~ plugin_id|clean_class,
   ]
 %}
-{% block content %}
-  
-    <div class="col-12">
-    <div class="row">
-        {{ content }}
-      </div>
-  </div>
+
+{% block content %} 
+ <div class="col-lg-5" style="min-height: 400px;">
+    <div class="position-relative h-100 rounded overflow-hidden">
+        {{content}}    
+    </div>
+</div>
 {% endblock %}
