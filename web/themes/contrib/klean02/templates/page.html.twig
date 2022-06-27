@@ -129,25 +129,28 @@
        </div>
       </header>
 
-      {% if page.breadcrumb %}
+     
       <div class="container-fluid bg-primary py-5 mb-5">
         <div class="container py-5">
           <div class="row align-items-center py-4">
+           {% if page.title %}
             <div class="col-md-6 text-center text-md-left">
               <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase"> 
-                {{ label }}
+                {{ page.title }}
               </h1>
             </div>
+            {% endif %}
+            {% if page.breadcrumb %}
             <div class="col-md-6 text-center text-md-right">
               <div class="d-inline-flex align-items-center">
                 <a href="btn btn-sm btn-outline-light">{{ page.breadcrumb }}</a>
               </div>
             </div>
+            {% endif %}
           </div>
         </div>
       </div>
-      {% endif %}
-
+      
       <!-- slider -->
       {% if page.slideshow %}
         <div class="container-fluid p-0">
@@ -233,11 +236,11 @@
               {{ page.featured_bottom_first }}
             </div>
           </div>
-          <div class="container-fluid bg-testimonial py-5">
+          {# <div class="container-fluid bg-testimonial py-5">
             <div class="container py-5">
             {{ page.featured_bottom_second }}
             </div>
-          </div>
+          </div> #}
           <div class="container-fluid pt-5">
             <div class="container pt-5">
               <div class="row align-items-end mb-4">
@@ -247,7 +250,7 @@
           </div>
         </div>
       {% endif %}
-      <footer class="site-footer">
+      <footer class="">
         {% block footer %}
         <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
           <div class="row pt-5">
@@ -268,9 +271,7 @@
             {% endif %}
             {% if page.footer_fifth %}
             <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: #3E3E4E !important;">
-              <div class="row">
-                {{ page.footer_fifth }}
-              </div>
+             {{ page.footer_fifth }}
             </div>
             {% endif %}
           </div>

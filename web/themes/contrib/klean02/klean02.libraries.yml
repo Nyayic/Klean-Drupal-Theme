@@ -2,8 +2,7 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
-    js/main.js: {}
-    owlcarousel/owl.carousel.min.js: {}
+    js/main.js: {} 
   css:
     component:
       css/style.css: {}

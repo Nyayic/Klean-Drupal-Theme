@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '90a11c35bd2c1cafc9063f6427f73277557adf36',
+        'reference' => 'a942ccc880d72f14e5e8f27cd71a7f741d5a6bcb',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -706,6 +706,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/newslettersignup' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'reference' => '8.x-3.1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/newslettersignup',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/node' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -724,6 +733,15 @@
             'reference' => '8.x-2.0-beta2',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../web/modules/contrib/owlcarousel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/owlcarousel2' => array(
+            'pretty_version' => '1.0.0-rc1',
+            'version' => '1.0.0.0-RC1',
+            'reference' => '8.x-1.0-rc1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/owlcarousel2',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -778,7 +796,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '90a11c35bd2c1cafc9063f6427f73277557adf36',
+            'reference' => 'a942ccc880d72f14e5e8f27cd71a7f741d5a6bcb',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -825,6 +843,15 @@
             'replaced' => array(
                 0 => '8.9.3',
             ),
+        ),
+        'drupal/simplenews' => array(
+            'pretty_version' => '3.0.0-beta2',
+            'version' => '3.0.0.0-beta2',
+            'reference' => '3.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/simplenews',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/simpletest' => array(
             'dev_requirement' => false,

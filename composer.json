@@ -29,9 +29,12 @@
         "drupal/fontawesome": "2.23",
         "drupal/image_class": "1.1",
         "drupal/module_filter": "^3.2",
+        "drupal/newslettersignup": "^3.1",
         "drupal/owlcarousel": "^2.0@beta",
+        "drupal/owlcarousel2": "^1.0@RC",
         "drupal/paragraphs": "1.13",
         "drupal/pathauto": "1.10",
+        "drupal/simplenews": "^3.0@beta",
         "drupal/token": "1.10",
         "drupal/twig_tweak": "2.9",
         "drupal/views_bootstrap": "4.3"

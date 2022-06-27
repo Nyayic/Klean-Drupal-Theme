@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb5a6701e43d1796baf8fda5b9e957a4",
+    "content-hash": "5d07c3442eacd82cb39254e574394805",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1780,6 +1780,50 @@
             }
         },
         {
+            "name": "drupal/newslettersignup",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/newslettersignup.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/newslettersignup-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8b83419aacd45f3098a0fdd8d7bcc3457056a3c5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1593420074",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gaurav.Kumar",
+                    "homepage": "https://www.drupal.org/user/928828"
+                }
+            ],
+            "description": "A simple newsletter signup form",
+            "homepage": "https://www.drupal.org/project/newslettersignup",
+            "support": {
+                "source": "https://git.drupalcode.org/project/newslettersignup"
+            }
+        },
+        {
             "name": "drupal/owlcarousel",
             "version": "2.0.0-beta2",
             "source": {
@@ -1854,6 +1898,54 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/owlcarousel",
                 "issues": "https://www.drupal.org/project/owlcarousel"
+            }
+        },
+        {
+            "name": "drupal/owlcarousel2",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/owlcarousel2.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/owlcarousel2-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "836a3a5369c59f034821f84d983c255ecea42dd2"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1533872884",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "yuriseki",
+                    "homepage": "https://www.drupal.org/user/1523064"
+                }
+            ],
+            "description": "OwlCarousel2 Impletemtation",
+            "homepage": "https://www.drupal.org/project/owlcarousel2",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/owlcarousel2",
+                "issues": "https://www.drupal.org/project/issues/owlcarousel2"
             }
         },
         {
@@ -2003,6 +2095,73 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/simplenews",
+            "version": "3.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/simplenews.git",
+                "reference": "3.0.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simplenews-3.0.0-beta2.zip",
+                "reference": "3.0.0-beta2",
+                "shasum": "7ba47a7da9edac676e58b668709ae4d252b9da26"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/monitoring": "^1.10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0-beta2",
+                    "datestamp": "1637315634",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AdamPS",
+                    "homepage": "https://www.drupal.org/user/2650563"
+                },
+                {
+                    "name": "AlexisWilke",
+                    "homepage": "https://www.drupal.org/user/356197"
+                },
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Simon Georges",
+                    "homepage": "https://www.drupal.org/user/172312"
+                },
+                {
+                    "name": "Sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Simplenews publishes and sends newsletters to lists of subscribers",
+            "homepage": "https://www.drupal.org/project/simplenews",
+            "support": {
+                "source": "https://git.drupalcode.org/project/simplenews"
             }
         },
         {
@@ -5283,7 +5442,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/owlcarousel": 10
+        "drupal/owlcarousel": 10,
+        "drupal/owlcarousel2": 5,
+        "drupal/simplenews": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
